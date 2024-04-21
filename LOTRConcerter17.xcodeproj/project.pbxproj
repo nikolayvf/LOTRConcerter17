@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0155940B2BD47D860093E485 /* ExchangeInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0155940A2BD47D860093E485 /* ExchangeInfo.swift */; };
+		0155940D2BD4826A0093E485 /* ExchangeRate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0155940C2BD4826A0093E485 /* ExchangeRate.swift */; };
+		0155940F2BD48F670093E485 /* SelectCurrency.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0155940E2BD48F670093E485 /* SelectCurrency.swift */; };
+		015594112BD493480093E485 /* Currency.swift in Sources */ = {isa = PBXBuildFile; fileRef = 015594102BD493480093E485 /* Currency.swift */; };
 		0169FE222BCF0FE8001B74D5 /* LOTRConcerter17App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0169FE212BCF0FE8001B74D5 /* LOTRConcerter17App.swift */; };
 		0169FE242BCF0FE8001B74D5 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0169FE232BCF0FE8001B74D5 /* ContentView.swift */; };
 		0169FE262BCF0FEA001B74D5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0169FE252BCF0FEA001B74D5 /* Assets.xcassets */; };
@@ -14,6 +18,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0155940A2BD47D860093E485 /* ExchangeInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExchangeInfo.swift; sourceTree = "<group>"; };
+		0155940C2BD4826A0093E485 /* ExchangeRate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExchangeRate.swift; sourceTree = "<group>"; };
+		0155940E2BD48F670093E485 /* SelectCurrency.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectCurrency.swift; sourceTree = "<group>"; };
+		015594102BD493480093E485 /* Currency.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Currency.swift; sourceTree = "<group>"; };
 		0169FE1E2BCF0FE8001B74D5 /* LOTRConcerter17.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LOTRConcerter17.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0169FE212BCF0FE8001B74D5 /* LOTRConcerter17App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LOTRConcerter17App.swift; sourceTree = "<group>"; };
 		0169FE232BCF0FE8001B74D5 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -53,6 +61,10 @@
 			children = (
 				0169FE212BCF0FE8001B74D5 /* LOTRConcerter17App.swift */,
 				0169FE232BCF0FE8001B74D5 /* ContentView.swift */,
+				015594102BD493480093E485 /* Currency.swift */,
+				0155940E2BD48F670093E485 /* SelectCurrency.swift */,
+				0155940A2BD47D860093E485 /* ExchangeInfo.swift */,
+				0155940C2BD4826A0093E485 /* ExchangeRate.swift */,
 				0169FE252BCF0FEA001B74D5 /* Assets.xcassets */,
 				0169FE272BCF0FEA001B74D5 /* Preview Content */,
 			);
@@ -137,6 +149,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				015594112BD493480093E485 /* Currency.swift in Sources */,
+				0155940D2BD4826A0093E485 /* ExchangeRate.swift in Sources */,
+				0155940F2BD48F670093E485 /* SelectCurrency.swift in Sources */,
+				0155940B2BD47D860093E485 /* ExchangeInfo.swift in Sources */,
 				0169FE242BCF0FE8001B74D5 /* ContentView.swift in Sources */,
 				0169FE222BCF0FE8001B74D5 /* LOTRConcerter17App.swift in Sources */,
 			);
